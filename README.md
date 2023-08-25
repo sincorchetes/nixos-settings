@@ -1,4 +1,4 @@
-# nixOS configuration settings
+nixOS configuration settings
 
 Setup Home-manager
 ```
