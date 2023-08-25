@@ -2,7 +2,7 @@
 
 {
   imports =
-    [
+    [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
       ./boot.nix
       ./locale.nix
@@ -14,6 +14,8 @@
       ./network.nix
       ./nixos-version.nix
       ./nonfree-software.nix
+      ./openssh.nix
+      <home-manager/nixos>
     ];
 }
 
