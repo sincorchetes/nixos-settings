@@ -13,7 +13,6 @@
       ./sound.nix
       ./network.nix
       ./nixos-version.nix
-      ./nonfree-software.nix
       ./openssh.nix
       <home-manager/nixos>
     ];
