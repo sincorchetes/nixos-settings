@@ -1,20 +1,20 @@
-# nixOS configuration settings
+## nixOS configuration settings
 
-## Setup Home-manager (globally)
+### Setup Home-manager (globally)
 ```
 sudo nix-channel --add https://github.com/nix-community/home-manager/archive/release-23.05.tar.gz home-manager
 sudo nix-channel --update
 sudo nixos-rebuild switch
 ```
-## Custom user
+### Custom user
 ```
 nix-shell '<home-manager>' -A install
 ```
 
-## Customize `.profile`
+### Customize `.profile`
 Add this line `. "$HOME/.nix-profile/etc/profile.d/hm-session-vars.sh"`
 
-## Setup packages
+### Setup packages
 Edit this file `~/.config/home-manager/home.nix`, and ad your package in this section:
 
 ```
