@@ -1,11 +1,13 @@
 ## nixOS configuration settings
 
 ### Setup Home-manager (globally)
+
 ```
 sudo nix-channel --add https://github.com/nix-community/home-manager/archive/release-23.05.tar.gz home-manager
 sudo nix-channel --update
 sudo nixos-rebuild switch
 ```
+
 ### Custom user
 ```
 nix-shell '<home-manager>' -A install
