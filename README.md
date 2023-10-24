@@ -15,7 +15,7 @@ nix-shell '<home-manager>' -A install
 ```
 This creates a file in `.config/home-manager/home.nix`
 
-## Customize `.profile`
+## Customize `.bash_profile`
 
 Add this line `. "$HOME/.nix-profile/etc/profile.d/hm-session-vars.sh"`
 
@@ -39,3 +39,9 @@ home.packages = [
     ];
 ```
 
+## Allow install non free software
+Add into your `.config/home-manager/home.nix` file:
+
+```
+nixpkgs.config.allowUnfree = true;
+```
