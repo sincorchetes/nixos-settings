@@ -4,6 +4,16 @@
   users.users.sincorchetes = {
     isNormalUser = true;
     home = "/home/sincorchetes";
-    extraGroups = [ "wheel" ]; # Enable ‘sudo’ for the user.
+    extraGroups = [ 
+	"wheel" 
+	"vboxusers" 
+	"docker"
+	"kvm"
+	"video" 
+	"audio" 
+	"users"
+        "input"
+        "bluetooth" 
+    ];
   };
 }

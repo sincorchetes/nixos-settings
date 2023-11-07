@@ -1,6 +1,4 @@
 {
-
-  nixpkgs.config.pulseaudio = true;
   services.xserver = {
     enable = true;
     desktopManager = {
