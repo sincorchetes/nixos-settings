@@ -3,6 +3,8 @@
 {
  programs.hyprland.enable = true;
   environment.systemPackages = [
+    pkgs.pciutils
+    pkgs.usbutils
     pkgs.transmission-gtk
     pkgs.tmux
     pkgs.termius
