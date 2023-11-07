@@ -1,5 +1,5 @@
 # nixOS configuration settings
-Settings for Thinkpad x270
+Settings for Thinkpad x270 and custom profile for development software.
 
 ## `lspci`
 ```
@@ -31,7 +31,7 @@ Bus 001 Device 004: ID 04f3:2374 Elan Microelectronics Corp. Touchscreen
 Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
 ```
 
-# Works
+## Works
 - NVME
 - Wi-Fi
 - Ethernet
